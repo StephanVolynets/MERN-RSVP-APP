@@ -1,9 +1,59 @@
-# Stephans Project 2
+# Stephans Project 2 INFO 2310 
 
-### Since this projects environment was built in a private Cornell Repository I had to use a template. [Why my commits are missing]
+*Since this projects environment was built in a private Cornell Repository I had to use a template. [Why my commits are missing]*
 
-## Event RSVP Application built in the MERN stack, Client fetching events, RESTful API featuring many end points
+# Event RSVP App
 
+A full-stack MERN (MongoDB, Express.js, React, Node.js) application for managing event RSVPs.
+
+## Overview
+
+This Event RSVP App allows users to create, view, and RSVP to events. It features a RESTful API backend built with Express.js and MongoDB, and a React frontend for a seamless user experience.
+
+## Key Features
+
+- Create and manage events
+- RSVP and un-RSVP to events
+- View all events with their details
+- Real-time head count updates
+
+## Technical Stack
+
+- **Backend**: Node.js with Express.js
+- **Database**: MongoDB
+- **Frontend**: React (with hooks for state management)
+- **API Communication**: Axios for HTTP requests
+
+## API Endpoints
+
+The app includes several RESTful API endpoints for event management:
+
+- `GET /api/events`: Fetch all events
+- `POST /api/events/create`: Create a new event
+- `DELETE /api/events/:id/delete`: Delete an event
+- `POST /api/events/:id/headCount/rsvp`: RSVP to an event
+- `POST /api/events/:id/headCount/unrsvp`: Un-RSVP from an event
+
+## Data Model
+
+Events are stored in MongoDB with the following schema:
+
+```javascript
+{
+  _id: ObjectId,
+  name: String,
+  description: String,
+  date: Date,
+  location: String,
+  headCount: Integer
+}
+```
+
+## Frontend Architecture
+
+The React frontend is structured with components for displaying events and managing RSVPs. It uses React hooks (useState, useEffect) for state management and side effects.
+
+# Getting Started
 ## Client
 
 ```sh
@@ -45,3 +95,11 @@ mongosh init.mongo.js
 ```sh
 npm run dev
 ```
+
+
+## Contributing
+
+Prof. Kyle Harms for teaching me how to harness these technologies. 
+
+
+
