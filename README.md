@@ -52,6 +52,7 @@ Events are stored in MongoDB with the following schema:
 ## Frontend Architecture
 
 The React frontend is structured with components for displaying events and managing RSVPs. It uses React hooks (useState, useEffect) for state management and side effects.
+![Xnip2024-08-26_20-38-03](https://github.com/user-attachments/assets/cd1f1018-596c-4a62-bb53-6be46cb98f47)
 
 # Getting Started
 ## Client
