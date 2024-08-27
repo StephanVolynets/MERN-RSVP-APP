@@ -1,6 +1,8 @@
-# Project 2
+# Stephans Project 2
 
-**Submission Instructions:** Stage, commit, and push your changed files. Then complete the submission form.
+### Since this projects environment was built in a private Cornell Repository I had to use a template. [Why my commits are missing]
+
+## Event RSVP Application built in the MERN stack, Client fetching events, RESTful API featuring many end points
 
 ## Client
 
